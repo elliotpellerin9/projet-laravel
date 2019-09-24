@@ -15,7 +15,7 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('http://pellerincreation.com/projet1/', 'MatiereController@index');
+Route::get('/', 'MatiereController@index');
 Route::get('/installer', 'AppController@installer');
 
 Route::get('/matieres', 'MatiereController@index');
